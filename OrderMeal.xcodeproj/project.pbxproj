@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3B07F8281FB15B4100F9A73F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07F8271FB15B4100F9A73F /* AppDelegate.swift */; };
-		3B07F82A1FB15B4100F9A73F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07F8291FB15B4100F9A73F /* ViewController.swift */; };
 		3B07F82D1FB15B4100F9A73F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B07F82B1FB15B4100F9A73F /* Main.storyboard */; };
 		3B07F82F1FB15B4100F9A73F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B07F82E1FB15B4100F9A73F /* Assets.xcassets */; };
 		3B07F8321FB15B4100F9A73F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B07F8301FB15B4100F9A73F /* LaunchScreen.storyboard */; };
+		3B07F83A1FB15B8500F9A73F /* ListRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07F8391FB15B8500F9A73F /* ListRestaurant.swift */; };
+		3B07F83C1FB15BDC00F9A73F /* ClickBuy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07F83B1FB15BDC00F9A73F /* ClickBuy.swift */; };
+		3B07F83E1FB15C5C00F9A73F /* MealList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B07F83D1FB15C5C00F9A73F /* MealList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3B07F8241FB15B4100F9A73F /* OrderMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B07F8271FB15B4100F9A73F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B07F8291FB15B4100F9A73F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B07F82C1FB15B4100F9A73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B07F82E1FB15B4100F9A73F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B07F8311FB15B4100F9A73F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B07F8331FB15B4100F9A73F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B07F8391FB15B8500F9A73F /* ListRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRestaurant.swift; sourceTree = "<group>"; };
+		3B07F83B1FB15BDC00F9A73F /* ClickBuy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickBuy.swift; sourceTree = "<group>"; };
+		3B07F83D1FB15C5C00F9A73F /* MealList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				3B07F8271FB15B4100F9A73F /* AppDelegate.swift */,
-				3B07F8291FB15B4100F9A73F /* ViewController.swift */,
 				3B07F82B1FB15B4100F9A73F /* Main.storyboard */,
+				3B07F83D1FB15C5C00F9A73F /* MealList.swift */,
+				3B07F83B1FB15BDC00F9A73F /* ClickBuy.swift */,
+				3B07F8391FB15B8500F9A73F /* ListRestaurant.swift */,
 				3B07F82E1FB15B4100F9A73F /* Assets.xcassets */,
 				3B07F8301FB15B4100F9A73F /* LaunchScreen.storyboard */,
 				3B07F8331FB15B4100F9A73F /* Info.plist */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B07F82A1FB15B4100F9A73F /* ViewController.swift in Sources */,
+				3B07F83E1FB15C5C00F9A73F /* MealList.swift in Sources */,
+				3B07F83A1FB15B8500F9A73F /* ListRestaurant.swift in Sources */,
 				3B07F8281FB15B4100F9A73F /* AppDelegate.swift in Sources */,
+				3B07F83C1FB15BDC00F9A73F /* ClickBuy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
